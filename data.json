@@ -19238,7 +19238,7 @@
     "shortName": "Plasma",
     "chainId": 9745,
     "networkId": 9745,
-    "icon": "https://ipfs.io/ipfs/bafkreicgr636cvsomnqj3ikgdpixfv7eh2nr2u3k7v423raav2lrpsvfwy",
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/9745.webp",
     "explorers": [
       {
         "name": "Routescan",
