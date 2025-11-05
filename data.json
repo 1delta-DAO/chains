@@ -4,6 +4,8 @@
     "chain": "ETH",
     "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/1.webp",
     "rpc": [
+      "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+      "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
       "https://api.mycryptoapi.com/eth",
       "https://cloudflare-eth.com",
       "https://ethereum-rpc.publicnode.com",
@@ -947,6 +949,7 @@
     "chain": "SYS",
     "rpc": [
       "https://rpc.syscoin.org",
+      "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}",
       "https://syscoin.public-rpc.com",
       "wss://rpc.syscoin.org/wss",
       "https://syscoin-evm.publicnode.com",
@@ -1760,6 +1763,7 @@
       "https://rpc.gnosis.gateway.fm",
       "https://rpc.ankr.com/gnosis",
       "https://gnosischain-rpc.gateway.pokt.network",
+      "https://gnosis-mainnet.public.blastapi.io",
       "https://gnosis.api.onfinality.io/public",
       "https://gnosis.blockpi.network/v1/rpc/public",
       "https://web3endpoints.com/gnosischain-mainnet",
@@ -4965,7 +4969,9 @@
     "rpc": [
       "https://shiden.api.onfinality.io/public",
       "https://shiden-rpc.dwellir.com",
+      "https://shiden.public.blastapi.io",
       "wss://shiden.api.onfinality.io/public-ws",
+      "wss://shiden.public.blastapi.io",
       "wss://shiden-rpc.dwellir.com"
     ],
     "faucets": [],
@@ -9202,6 +9208,8 @@
     "rpc": [
       "https://rpc.api.moonbeam.network",
       "wss://wss.api.moonbeam.network",
+      "https://moonbeam.public.blastapi.io",
+      "wss://moonbeam.public.blastapi.io",
       "https://moonbeam-rpc.dwellir.com",
       "wss://moonbeam-rpc.dwellir.com",
       "https://moonbeam.api.onfinality.io/public",
@@ -9240,6 +9248,8 @@
     "rpc": [
       "https://rpc.api.moonriver.moonbeam.network",
       "wss://wss.api.moonriver.moonbeam.network",
+      "https://moonriver.public.blastapi.io",
+      "wss://moonriver.public.blastapi.io",
       "https://moonriver-rpc.dwellir.com",
       "wss://moonriver-rpc.dwellir.com",
       "https://moonriver.api.onfinality.io/public",
@@ -16844,6 +16854,7 @@
       "https://zetachain-evm.blockpi.network/v1/rpc/public",
       "https://zetachain-mainnet.g.allthatnode.com/archive/evm",
       "https://zeta-chain.drpc.org",
+      "https://zetachain-mainnet.public.blastapi.io",
       "https://7000.rpc.thirdweb.com"
     ],
     "faucets": [],
@@ -23747,6 +23758,8 @@
       "decimals": 18
     },
     "rpc": [
+      "https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}",
+      "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
       "https://arb1.arbitrum.io/rpc",
       "https://arbitrum-one-rpc.publicnode.com",
       "wss://arbitrum-one-rpc.publicnode.com"
@@ -25512,6 +25525,8 @@
     "rpc": [
       "https://rpc.linea.build",
       "wss://rpc.linea.build",
+      "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}",
+      "wss://linea-mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
       "https://linea-rpc.publicnode.com",
       "wss://linea-rpc.publicnode.com"
     ],
@@ -25592,8 +25607,9 @@
     "chain": "ETH",
     "rpc": [
       "https://rpc.gobob.xyz",
-      "https://bob.gateway.tenderly.co",
-      "https://bob.drpc.org"
+      "wss://rpc.gobob.xyz",
+      "https://bob-mainnet.public.blastapi.io",
+      "wss://bob-mainnet.public.blastapi.io"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -26805,6 +26821,7 @@
       "https://rpc.blast.io",
       "https://rpc.ankr.com/blast",
       "https://blast.din.dev/rpc",
+      "https://blastl2-mainnet.public.blastapi.io",
       "https://blast.blockpi.network/v1/rpc/public",
       "https://blast-rpc.publicnode.com",
       "wss://blast-rpc.publicnode.com"
@@ -31751,7 +31768,9 @@
     "chain": "ETH",
     "status": "incubating",
     "rpc": [
-      "https://api.zan.top/public/jovay-mainnet"
+      "https://api.zan.top/public/jovay-mainnet",
+      "https://api.zan.top/node/v1/jovay/mainnet/${ZAN_API_KEY}",
+      "wss://api.zan.top/node/ws/v1/jovay/mainnet/${ZAN_API_KEY}"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -32256,7 +32275,9 @@
   "18071918": {
     "name": "Mande Network Mainnet",
     "chain": "Mande",
-    "rpc": [],
+    "rpc": [
+      "https://mande-mainnet.public.blastapi.io"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Mand",
@@ -33846,7 +33867,10 @@
     "name": "Palm",
     "chain": "Palm",
     "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/11297108109.webp",
-    "rpc": [],
+    "rpc": [
+      "https://palm-mainnet.infura.io/v3/${INFURA_API_KEY}",
+      "https://palm-mainnet.public.blastapi.io"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "PALM",
