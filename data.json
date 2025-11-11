@@ -2499,7 +2499,7 @@
     "explorers": [
       {
         "name": "sonic",
-        "url": "https://explorer.soniclabs.com",
+        "url": "https://sonicscan.org",
         "icon": "sonic",
         "standard": "none"
       }
