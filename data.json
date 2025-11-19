@@ -9485,8 +9485,8 @@
     "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/1329.webp",
     "explorers": [
       {
-        "name": "Seitrace",
-        "url": "https://seitrace.com",
+        "name": "Seiscan",
+        "url": "https://seiscan.io",
         "standard": "EIP3091"
       }
     ],
@@ -30678,7 +30678,7 @@
     "explorers": [
       {
         "name": "katana explorer",
-        "url": "https://explorer.katanarpc.com",
+        "url": "https://katanascan.com",
         "icon": "katana",
         "standard": "EIP3091"
       }
