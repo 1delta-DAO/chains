@@ -2444,6 +2444,36 @@
     "enum": "ETERNAL_MAINNET",
     "key": "eternal"
   },
+  "143": {
+    "name": "Monad Mainnet",
+    "chain": "MON",
+    "rpc": [
+      "https://rpc.monad.xyz",
+      "https://rpc1.monad.xyz",
+      "https://rpc2.monad.xyz",
+      "https://rpc3.monad.xyz",
+      "https://rpc-mainnet.monadinfra.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "MON Token",
+      "symbol": "MON",
+      "decimals": 18
+    },
+    "infoURL": "https://monad.xyz",
+    "shortName": "mon",
+    "chainId": 143,
+    "networkId": 143,
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/143.webp",
+    "explorers": [
+      {
+        "name": "MonadVison",
+        "url": "https://monadvision.com/"
+      }
+    ],
+    "enum": "MONAD_MAINNET",
+    "key": "monad"
+  },
   "144": {
     "name": "PHI Network v2",
     "chain": "PHI",
