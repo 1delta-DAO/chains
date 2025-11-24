@@ -2468,10 +2468,10 @@
     "explorers": [
       {
         "name": "MonadVison",
-        "url": "https://monadvision.com/",
+        "url": "https://monadvision.com/"
       }
     ],
-    "enum": "MONAD",
+    "enum": "MONAD_MAINNET",
     "key": "monad"
   },
   "144": {
