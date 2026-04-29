@@ -2461,17 +2461,17 @@
       "decimals": 18
     },
     "infoURL": "https://monad.xyz",
-    "shortName": "mon",
+    "shortName": "Monad",
     "chainId": 143,
     "networkId": 143,
-    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/143.webp",
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chains/main/143.webp",
     "explorers": [
       {
         "name": "MonadVison",
-        "url": "https://monadvision.com/",
+        "url": "https://monadvision.com/"
       }
     ],
-    "enum": "MONAD",
+    "enum": "MONAD_MAINNET",
     "key": "monad"
   },
   "144": {
