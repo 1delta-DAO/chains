@@ -34212,5 +34212,90 @@
       "decimals": 9
     },
     "key": "fuel"
+  },
+  "988": {
+    "name": "Stable Mainnet",
+    "chain": "Stable",
+    "icon": "githubusercontent.com",
+    "rpc": [
+      "https://stable.rpc.thirdweb.com",
+      "https://rpc.stable.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Stable",
+      "symbol": "USDT0",
+      "decimals": 18
+    },
+    "infoURL": "https://stable.xyz",
+    "shortName": "Stable",
+    "chainId": 988,
+    "networkId": 988,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "stablescan",
+        "url": "https://stablescan.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "STABLE_MAINNET",
+    "key": "stable"
+  },
+  "1672": {
+    "name": "Pharos Mainnet",
+    "chain": "Pharos",
+    "icon": "githubusercontent.com",
+    "rpc": [
+      "https://rpc.pharos.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Pharos",
+      "symbol": "PHAROS",
+      "decimals": 18
+    },
+    "infoURL": "https://pharos.xyz",
+    "shortName": "Pharos",
+    "chainId": 1672,
+    "networkId": 1672,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "pharosexlporer",
+        "url": "https://explorer.pharos.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "PHAROS_MAINNET",
+    "key": "pharos"
+  },
+  "4326": {
+    "name": "MegaETH",
+    "chain": "MegaETH",
+    "icon": "githubusercontent.com",
+    "rpc": [
+      "https://mainnet.megaeth.com/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://megaeth.com/",
+    "shortName": "MegaETH",
+    "chainId": 4326,
+    "networkId": 4326,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "megaethscan",
+        "url": "https://explorer.megaeth.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "MEGAETH_MAINNET",
+    "key": "megaeth"
   }
 }
