@@ -34247,7 +34247,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "Pharos",
-      "symbol": "PHAROS",
+      "symbol": "PROS",
       "decimals": 18
     },
     "infoURL": "https://pharos.xyz",
@@ -34257,7 +34257,7 @@
     "slip44": 1,
     "explorers": [
       {
-        "name": "pharosexlporer",
+        "name": "pharosexplorer",
         "url": "https://explorer.pharos.xyz",
         "standard": "EIP3091"
       }
@@ -34292,5 +34292,33 @@
     ],
     "enum": "MEGAETH_MAINNET",
     "key": "megaeth"
+  },
+  "4663": {
+    "name": "Robinhood Chain",
+    "chain": "Robinhood",
+    "icon": "githubusercontent.com",
+    "rpc": [
+      "https://rpc.mainnet.chain.robinhood.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.robinhood.com/chain/",
+    "shortName": "Robinhood",
+    "chainId": 4663,
+    "networkId": 4663,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "robinhoodchain",
+        "url": "https://robinhoodchain.blockscout.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "ROBINHOOD_MAINNET",
+    "key": "robinhood"
   }
 }
