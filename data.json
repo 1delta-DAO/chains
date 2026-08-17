@@ -10759,6 +10759,48 @@
     "enum": "PARTYCHAIN",
     "key": "partychain"
   },
+  "1776": {
+    "name": "Injective",
+    "chain": "Injective",
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/1776.webp",
+    "rpc": [
+      "https://sentry.evm-rpc.injective.network",
+      "https://injectiveevm-rpc.polkachu.com",
+      "https://injective.rpc.thirdweb.com",
+      "wss://sentry.evm-ws.injective.network",
+      "wss://injectiveevm-ws.polkachu.com"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Injective",
+      "symbol": "INJ",
+      "decimals": 18
+    },
+    "infoURL": "https://injective.com",
+    "shortName": "injective",
+    "chainId": 1776,
+    "networkId": 1776,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://blockscout.injective.network",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "status": "active",
+    "enum": "INJECTIVE_MAINNET",
+    "key": "injective"
+  },
   "1777": {
     "name": "Gauss Mainnet",
     "chain": "Gauss",
