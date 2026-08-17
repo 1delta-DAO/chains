@@ -5240,6 +5240,7 @@
     "shortName": "Cronos zkEVM",
     "chainId": 388,
     "networkId": 388,
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/388.webp",
     "explorers": [
       {
         "name": "Cronos zkEVM (Mainnet) Chain Explorer",
@@ -6773,6 +6774,42 @@
     "enum": "VRCSCAN_MAINNET",
     "key": "vrcscan"
   },
+  "714": {
+    "name": "Eden",
+    "chain": "Eden",
+    "rpc": [
+      "https://rpc.eden.gateway.fm"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "TIA",
+      "symbol": "TIA",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://celestia.org",
+    "shortName": "Eden",
+    "chainId": 714,
+    "networkId": 714,
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/714.webp",
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://eden.blockscout.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "EDEN",
+    "key": "eden"
+  },
   "719": {
     "name": "Shibarium Beta",
     "chain": "Shibarium",
@@ -8024,6 +8061,35 @@
     ],
     "enum": "BINARYCHAIN_MAINNET",
     "key": "binarychain-mainnet"
+  },
+  "988": {
+    "name": "Stable Mainnet",
+    "chain": "Stable",
+    "icon": "githubusercontent.com",
+    "rpc": [
+      "https://stable.rpc.thirdweb.com",
+      "https://rpc.stable.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Stable",
+      "symbol": "USDT0",
+      "decimals": 18
+    },
+    "infoURL": "https://stable.xyz",
+    "shortName": "Stable",
+    "chainId": 988,
+    "networkId": 988,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "stablescan",
+        "url": "https://stablescan.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "STABLE_MAINNET",
+    "key": "stable"
   },
   "990": {
     "name": "eLiberty Mainnet",
@@ -10400,6 +10466,34 @@
     ],
     "enum": "PIVOTAL_MAINNET",
     "key": "pivotal"
+  },
+  "1672": {
+    "name": "Pharos Mainnet",
+    "chain": "Pharos",
+    "icon": "githubusercontent.com",
+    "rpc": [
+      "https://rpc.pharos.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Pharos",
+      "symbol": "PROS",
+      "decimals": 18
+    },
+    "infoURL": "https://pharos.xyz",
+    "shortName": "Pharos",
+    "chainId": 1672,
+    "networkId": 1672,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "pharosexplorer",
+        "url": "https://explorer.pharos.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "PHAROS_MAINNET",
+    "key": "pharos"
   },
   "1689": {
     "name": "NERO Mainnet",
@@ -14751,6 +14845,42 @@
     "enum": "BITINDI_MAINNET",
     "key": "bitindi"
   },
+  "4114": {
+    "name": "Citrea Mainnet",
+    "chain": "Citrea",
+    "rpc": [
+      "https://rpc.mainnet.citrea.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Citrea BTC",
+      "symbol": "cBTC",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://citrea.xyz",
+    "shortName": "Citrea",
+    "chainId": 4114,
+    "networkId": 4114,
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/4114.webp",
+    "explorers": [
+      {
+        "name": "Citrea Mainnet Explorer",
+        "url": "https://explorer.mainnet.citrea.xyz",
+        "icon": "citrea",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "CITREA_MAINNET",
+    "key": "citrea"
+  },
   "4158": {
     "name": "CrossFi Mainnet",
     "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/4158.webp",
@@ -14905,6 +15035,35 @@
     "enum": "LAYER_EDGE_MAINNET",
     "key": "layer-edge"
   },
+  "4217": {
+    "name": "Tempo Mainnet Presto",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.mainnet.tempo.xyz",
+      "wss://rpc.mainnet.tempo.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "No native currency",
+      "symbol": "USD",
+      "decimals": 18
+    },
+    "infoURL": "https://tempo.xyz",
+    "shortName": "Tempo",
+    "chainId": 4217,
+    "networkId": 4217,
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/4217.webp",
+    "explorers": [
+      {
+        "name": "tempo-explorer",
+        "url": "https://explore.tempo.xyz",
+        "icon": "tempo",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "TEMPO_MAINNET_PRESTO",
+    "key": "tempo"
+  },
   "4242": {
     "name": "Nexi Mainnet",
     "chain": "Nexi",
@@ -14990,6 +15149,34 @@
     ],
     "enum": "ECHOS_CHAIN",
     "key": "echos-chain"
+  },
+  "4326": {
+    "name": "MegaETH",
+    "chain": "MegaETH",
+    "icon": "githubusercontent.com",
+    "rpc": [
+      "https://mainnet.megaeth.com/rpc"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://megaeth.com/",
+    "shortName": "MegaETH",
+    "chainId": 4326,
+    "networkId": 4326,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "megaethscan",
+        "url": "https://explorer.megaeth.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "MEGAETH_MAINNET",
+    "key": "megaeth"
   },
   "4337": {
     "name": "Beam",
@@ -15302,6 +15489,34 @@
     "enum": "MST_CHAIN",
     "key": "mst-chain"
   },
+  "4663": {
+    "name": "Robinhood Chain",
+    "chain": "Robinhood",
+    "icon": "githubusercontent.com",
+    "rpc": [
+      "https://rpc.mainnet.chain.robinhood.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.robinhood.com/chain/",
+    "shortName": "Robinhood",
+    "chainId": 4663,
+    "networkId": 4663,
+    "slip44": 60,
+    "explorers": [
+      {
+        "name": "robinhoodchain",
+        "url": "https://robinhoodchain.blockscout.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "ROBINHOOD_MAINNET",
+    "key": "robinhood"
+  },
   "4689": {
     "name": "IoTeX Network Mainnet",
     "chain": "iotex.io",
@@ -15502,6 +15717,38 @@
     ],
     "enum": "TREASURENET_MAINNET_ALPHA",
     "key": "treasurenet-alpha"
+  },
+  "5031": {
+    "name": "Somnia Mainnet",
+    "chain": "Somnia",
+    "rpc": [
+      "https://api.infra.mainnet.somnia.network"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Somnia Mainnet",
+      "symbol": "SOMI",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      }
+    ],
+    "infoURL": "https://somnia.network",
+    "shortName": "Somnia",
+    "chainId": 5031,
+    "networkId": 5031,
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/5031.webp",
+    "explorers": [
+      {
+        "name": "Somnia Mainnet",
+        "url": "https://mainnet.somnia.w3us.site",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "SOMNIA_MAINNET",
+    "key": "somnia"
   },
   "5040": {
     "name": "ONIGIRI Subnet",
@@ -21174,6 +21421,41 @@
     "enum": "GENESYS_MAINNET",
     "key": "genesys"
   },
+  "16661": {
+    "name": "0G Mainnet",
+    "chain": "0G",
+    "rpc": [
+      "https://evmrpc.0g.ai"
+    ],
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "0G",
+      "symbol": "0G",
+      "decimals": 18
+    },
+    "infoURL": "https://0g.ai",
+    "shortName": "0G",
+    "chainId": 16661,
+    "networkId": 16661,
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/16661.webp",
+    "explorers": [
+      {
+        "name": "0G Chainscan",
+        "url": "https://chainscan.0g.ai",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "ZERO_G_MAINNET",
+    "key": "0g"
+  },
   "16718": {
     "name": "AirDAO Mainnet",
     "chain": "ambnet",
@@ -22415,6 +22697,45 @@
     "enum": "EVERCLEAR_MAINNET",
     "key": "everclear"
   },
+  "25363": {
+    "name": "Fluent",
+    "chain": "FLUENT",
+    "rpc": [
+      "https://rpc.fluent.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://www.fluent.xyz/",
+    "shortName": "Fluent",
+    "chainId": 25363,
+    "networkId": 25363,
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/25363.webp",
+    "explorers": [
+      {
+        "name": "Fluent Explorer",
+        "url": "https://fluentscan.xyz",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1"
+    },
+    "enum": "FLUENT",
+    "key": "fluent"
+  },
   "25888": {
     "name": "Hammer Chain Mainnet",
     "chain": "HammerChain",
@@ -23524,6 +23845,41 @@
     ],
     "enum": "CONNECTORMANAGER_ROBIN",
     "key": "connectormanager-robin"
+  },
+  "38833": {
+    "name": "Igra Network",
+    "chain": "IGRA",
+    "rpc": [
+      "https://rpc.igralabs.com:8545"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "iKAS",
+      "symbol": "iKAS",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "infoURL": "https://igralabs.com",
+    "shortName": "Igra",
+    "chainId": 38833,
+    "networkId": 38833,
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/38833.webp",
+    "explorers": [
+      {
+        "name": "Igra Explorer",
+        "url": "https://explorer.igralabs.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "IGRA_NETWORK",
+    "key": "igra"
   },
   "39656": {
     "name": "PRM Mainnet",
@@ -30537,6 +30893,43 @@
     "enum": "CONWAI_MAINNET",
     "key": "conwai"
   },
+  "685689": {
+    "name": "Gensyn Mainnet",
+    "chain": "Gensyn",
+    "rpc": [
+      "https://gensyn-mainnet.g.alchemy.com/public"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "infoURL": "https://gensyn.network/",
+    "shortName": "Gensyn",
+    "chainId": 685689,
+    "networkId": 685689,
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/685689.webp",
+    "explorers": [
+      {
+        "name": "Gensyn Mainnet Explorer",
+        "url": "https://gensyn-mainnet.explorer.alchemy.com",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://stargate.finance/bridge"
+        }
+      ]
+    },
+    "status": "active",
+    "enum": "GENSYN_MAINNET",
+    "key": "gensyn"
+  },
   "686868": {
     "name": "Won Network",
     "chainId": 686868,
@@ -34207,118 +34600,5 @@
       "decimals": 9
     },
     "key": "fuel"
-  },
-  "988": {
-    "name": "Stable Mainnet",
-    "chain": "Stable",
-    "icon": "githubusercontent.com",
-    "rpc": [
-      "https://stable.rpc.thirdweb.com",
-      "https://rpc.stable.xyz"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Stable",
-      "symbol": "USDT0",
-      "decimals": 18
-    },
-    "infoURL": "https://stable.xyz",
-    "shortName": "Stable",
-    "chainId": 988,
-    "networkId": 988,
-    "slip44": 1,
-    "explorers": [
-      {
-        "name": "stablescan",
-        "url": "https://stablescan.xyz",
-        "standard": "EIP3091"
-      }
-    ],
-    "enum": "STABLE_MAINNET",
-    "key": "stable"
-  },
-  "1672": {
-    "name": "Pharos Mainnet",
-    "chain": "Pharos",
-    "icon": "githubusercontent.com",
-    "rpc": [
-      "https://rpc.pharos.xyz"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Pharos",
-      "symbol": "PROS",
-      "decimals": 18
-    },
-    "infoURL": "https://pharos.xyz",
-    "shortName": "Pharos",
-    "chainId": 1672,
-    "networkId": 1672,
-    "slip44": 1,
-    "explorers": [
-      {
-        "name": "pharosexplorer",
-        "url": "https://explorer.pharos.xyz",
-        "standard": "EIP3091"
-      }
-    ],
-    "enum": "PHAROS_MAINNET",
-    "key": "pharos"
-  },
-  "4326": {
-    "name": "MegaETH",
-    "chain": "MegaETH",
-    "icon": "githubusercontent.com",
-    "rpc": [
-      "https://mainnet.megaeth.com/rpc"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Ether",
-      "symbol": "ETH",
-      "decimals": 18
-    },
-    "infoURL": "https://megaeth.com/",
-    "shortName": "MegaETH",
-    "chainId": 4326,
-    "networkId": 4326,
-    "slip44": 60,
-    "explorers": [
-      {
-        "name": "megaethscan",
-        "url": "https://explorer.megaeth.com",
-        "standard": "EIP3091"
-      }
-    ],
-    "enum": "MEGAETH_MAINNET",
-    "key": "megaeth"
-  },
-  "4663": {
-    "name": "Robinhood Chain",
-    "chain": "Robinhood",
-    "icon": "githubusercontent.com",
-    "rpc": [
-      "https://rpc.mainnet.chain.robinhood.com"
-    ],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Ether",
-      "symbol": "ETH",
-      "decimals": 18
-    },
-    "infoURL": "https://docs.robinhood.com/chain/",
-    "shortName": "Robinhood",
-    "chainId": 4663,
-    "networkId": 4663,
-    "slip44": 60,
-    "explorers": [
-      {
-        "name": "robinhoodchain",
-        "url": "https://robinhoodchain.blockscout.com",
-        "standard": "EIP3091"
-      }
-    ],
-    "enum": "ROBINHOOD_MAINNET",
-    "key": "robinhood"
   }
 }
