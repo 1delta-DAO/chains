@@ -34600,5 +34600,87 @@
       "decimals": 9
     },
     "key": "fuel"
+  },
+  "484": {
+    "name": "Camp Network Mainnet",
+    "chain": "CAMP",
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/484.webp",
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      }
+    ],
+    "rpc": [
+      "https://rpc.camp.raas.gelato.cloud"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Camp",
+      "symbol": "CAMP",
+      "decimals": 18
+    },
+    "infoURL": "https://docs.campnetwork.xyz",
+    "shortName": "CampMainnet",
+    "chainId": 484,
+    "networkId": 484,
+    "slip44": 1,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://camp.cloud.blockscout.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  "4153": {
+    "name": "RISE",
+    "chain": "ETH",
+    "rpc": [
+      "https://rpc.risechain.com/",
+      "wss://rpc.risechain.com/ws"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "features": [
+      {
+        "name": "EIP155"
+      },
+      {
+        "name": "EIP1559"
+      },
+      {
+        "name": "EIP7702"
+      }
+    ],
+    "infoURL": "https://risechain.com",
+    "shortName": "rise",
+    "chainId": 4153,
+    "networkId": 4153,
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/4153.webp",
+    "explorers": [
+      {
+        "name": "Blockscout",
+        "url": "https://explorer.risechain.com",
+        "icon": "blockscout",
+        "standard": "EIP3091"
+      }
+    ],
+    "parent": {
+      "type": "L2",
+      "chain": "eip155-1",
+      "bridges": [
+        {
+          "url": "https://bridge.risechain.com"
+        }
+      ]
+    }
   }
 }
