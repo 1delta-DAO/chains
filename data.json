@@ -10767,8 +10767,8 @@
       "https://sentry.evm-rpc.injective.network",
       "https://injectiveevm-rpc.polkachu.com",
       "https://injective.rpc.thirdweb.com",
-      "wss://sentry.evm-ws.injective.network",
-      "wss://injectiveevm-ws.polkachu.com"
+      "wss://injectiveevm-ws.polkachu.com",
+      "wss://sentry.evm-ws.injective.network"
     ],
     "features": [
       {
