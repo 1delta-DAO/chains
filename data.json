@@ -34724,5 +34724,32 @@
         }
       ]
     }
+  },
+  "5042": {
+    "name": "Arc",
+    "chain": "Arc",
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/5042.webp",
+    "rpc": [
+      "https://rpc.mainnet.arc.io"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 18
+    },
+    "infoURL": "https://arc.network",
+    "shortName": "arc-mainnet",
+    "chainId": 5042,
+    "networkId": 5042,
+    "explorers": [
+      {
+        "name": "Arc Explorer",
+        "url": "https://explorer.arc.io",
+        "standard": "EIP3091"
+      }
+    ],
+    "enum": "ARC",
+    "key": "arc"
   }
 }
