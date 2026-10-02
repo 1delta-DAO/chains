@@ -2483,7 +2483,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "PHI",
-      "symbol": "Φ",
+      "symbol": "\u03a6",
       "decimals": 18
     },
     "infoURL": "https://phi.network",
@@ -14993,7 +14993,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "PHI",
-      "symbol": "Φ",
+      "symbol": "\u03a6",
       "decimals": 18
     },
     "infoURL": "https://phi.network",
@@ -28517,7 +28517,7 @@
     "faucets": [],
     "nativeCurrency": {
       "name": "CRFI",
-      "symbol": "◈",
+      "symbol": "\u25c8",
       "decimals": 18
     },
     "infoURL": "https://crystaleum.org",
@@ -34751,5 +34751,38 @@
     ],
     "enum": "ARC",
     "key": "arc"
+  },
+  "solana": {
+    "name": "Solana",
+    "chain": "Solana",
+    "icon": "https://raw.githubusercontent.com/1delta-DAO/chain-icons/main/solana.webp",
+    "rpc": [
+      "https://api.mainnet-beta.solana.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9
+    },
+    "infoURL": "https://solana.com",
+    "shortName": "Solana",
+    "chainId": "solana",
+    "networkId": "solana",
+    "title": "Solana",
+    "explorers": [
+      {
+        "name": "Solscan",
+        "url": "https://solscan.io",
+        "standard": ""
+      },
+      {
+        "name": "Solana Explorer",
+        "url": "https://explorer.solana.com",
+        "standard": ""
+      }
+    ],
+    "enum": "SOLANA",
+    "key": "solana"
   }
 }
